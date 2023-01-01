@@ -1,0 +1,27 @@
+.contactList {
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.contactList li {
+  list-style-type: disc;
+}
+
+.contactList li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.contactList li div {
+  display: flex;
+  align-items: center;
+}
+
+.contactList button {
+  margin-left: 10px;
+  padding: 5px;
+
+  border-radius: 5px;
+  border-style: none;
+
+  cursor: pointer;
+}
